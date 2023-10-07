@@ -1,0 +1,137 @@
+.CheatSheetTitle {
+    color: #002218;
+    text-align: center;
+    font-size: xxx-large;
+    border-radius: 160px;
+    background: chartreuse;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+
+
+
+
+article:hover{
+    background: grey;
+    border-radius: 4px;
+}
+
+span:hover{
+    background: aquamarine;
+    border-radius: 4px;
+}
+
+body{
+    font-family: "Calibri Light";
+    background: darkgrey;
+}
+
+.redirector{
+    color: grey;
+    font-size: 50px;
+    text-align: center;
+}
+
+.redirector:hover{
+    color: aquamarine;
+
+}
+
+.Title{
+    text-align: center;
+    font-weight: bolder;
+    font-size: 46px;
+    font-family: "Calibri Light";
+    background: white;
+    border-radius: 5px;
+    padding: 10px;
+    height: 50px;
+}
+
+.table_of_content{
+    font-size: 20px;
+    font-weight: bold;
+    background-color: whitesmoke;
+    max-width: 9%;
+    text-align: center;
+    border-radius: 16px;
+    padding: 10px;
+
+}
+
+a{
+    font-size: 18px;
+}
+
+h1{
+    background-color: whitesmoke;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+
+.HTML{
+    background-color: aquamarine;
+    border-radius: 4px;
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    width: 300px;
+    height: 100px;
+    padding: 10px;
+    border: aquamarine;
+    border-radius: 16px;
+}
+
+.HTML:hover{
+    background-color: grey;
+    color: aquamarine;
+}
+
+.arrow{
+    height: 50px;
+    transform: rotate(-90deg);
+    margin-left: 10px;
+    border-radius: 16px;
+}
+
+.back-key{
+    background-color: white;
+    border-radius: 16px;
+    max-width: 4%;
+}
+
+.goback{
+    font-size: 20px;
+    padding:10px;
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: #e9e9e9;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+/* Style the "active" element to highlight the current page */
+.topnav a.active {
+    background-color: #2196F3;
+    color: white;
+}
+
