@@ -5,7 +5,6 @@
     <title>HTML</title>
     <link rel="stylesheet" type="text/css"  href="./style.css">
     <link rel="icon" type="image/png" href="images/icon.png">
-
 </head>
 <body>
 
@@ -22,7 +21,7 @@
         </div>
     </div>
 
-    <h1 id="title_HTML">HTML Basics</h1>
+    <h1 class="Title">HTML Basics</h1>
 
     <a class="go-back" href="index.html">
         <div class="back-key">
@@ -44,14 +43,14 @@
 
     <hr>
 
-    <h4 class="HTML_title" id="elements_HTML">HTML elements</h4>
-    <p class="contents">
+    <div class="contents">
+        <h4 class="HTML_title" id="elements_HTML">HTML elements</h4>
         The HTML element is everything from the start tag to the end tag, for example <strong>&lt;p&gt;</strong> Content here... <strong> &lt;/p&gt;</strong>.
         <br> Void elements are all elements that have no end tag for example <strong>&lt;br&gt;</strong>
-    </p>
+    </div>
 
-    <h4 class="HTML_title" id="attributes_HTML">Attributes</h4>
-    <p class="contents">
+    <div class="contents">
+        <h4 class="HTML_title" id="attributes_HTML">Attributes</h4>
         Ever element can have attributes. They change the way of how the element looks, works, interacts,etc...
         <br>Some examples are:
         <br><strong>&lt;src&gt;</strong>(sets the source of an image),
@@ -59,28 +58,29 @@
         <br><strong>&lt;alt&gt;</strong>(puts an alt text for an image if it doesn't load),
         <br><strong>&lt;width&gt;</strong>(sets the width of an element),
         <br>and many more...
-    </p>
+    </div>
 
-    <h4 class="HTML_title" id="headings_HTML">Headings</h4>
-    <p class="contents">
+    <div class="contents">
+        <h4 class="HTML_title" id="headings_HTML">Headings</h4>
         Headings are very important. They are like a title for your documents. There are different sizes of heading.
         <br>The biggest is <strong>&lt;h1&gt;</strong> and the smallest is <strong>&lt;h6&gt;</strong>.
-    </p>
+    </div>
 
-    <h4 class="HTML_title" id="paragraphs_HTML">Paragraphs</h4>
-    <p class="contents">A paragraph is defined using <strong>&lt;p&gt;</strong>. The browser automaticlly removes any spaces.
+    <div class="contents">
+        <h4 class="HTML_title" id="paragraphs_HTML">Paragraphs</h4>
+        A paragraph is defined using <strong>&lt;p&gt;</strong>. The browser automatically removes any spaces.
         <br>By using <strong>&lt;br&gt;</strong> you can make a line break and by using <strong>&lt;hr&gt;</strong> you can make a horizontal rule.
         <br>Using <strong>&lt;pre&gt;</strong> you can let text be the same as in your editor.
-    </p>
+    </div>
 
-    <h4 class="HTML_title" id="comments_HTML">Comments</h4>
-    <p class="contents">
+    <div class="contents">
+        <h4 class="HTML_title" id="comments_HTML">Comments</h4>
         Comments are very useful. They can be used to add text on your editor without it showing on your website, This can be used to help others or your future self understand the code.
         <br> To use a comment, you just need to write: <strong>&lt;!-- add comments here --&gt;</strong>.
-    </p>
+    </div>
 
-    <h4 class="HTML_title" id="links_HTML">Links</h4>
-    <p class="contents">
+    <div class="contents">
+        <h4 class="HTML_title" id="links_HTML">Links</h4>
         Links in HTML are just simple hyperlinks. Use them to jump to other websites or documents.
         <br>The <strong>&lt;a&gt;</strong> defines an anchor, which can be used for links. Just add the <i>href</i> <a href="#attributes_HTML">attribute</a> to add a hyperlink.
         <br>Using the <i><strong>target</strong></i> attribute, you can choose how the documents get opened.
@@ -88,14 +88,23 @@
         <br>_blank: <a href="https://github.com/2324-2bhif-wmc-assignments" target="_blank">This opens the link in a new window</a>
         <br>_parent: <a href="https://github.com/2324-2bhif-wmc-assignments" target="_parent">This opens the link in a parent frame</a>
         <br>_top: <a href="https://github.com/2324-2bhif-wmc-assignments" target="_top">This opens the link in the full body of the window</a>
-    </p>
+    </div>
 
-    <h4 class="HTML_title" id="images_HTML">Images</h4>
-    <p class="contents">
-        Images are very important to use.
-    </p>
+    <div class="contents">
+        <h4 class="HTML_title" id="images_HTML">Images</h4>
+        Images are very important to use. By using <strong>&lt;img&gt;</strong> you can add a image. The img tag is a void tag since it had no ending tag.
+        <br> You need to also use 2 attributes: src and alt. (More on <a href="#attributes_HTML">Attributes</a>).
+        <br>The alt attribute provides an alternative text,for when a user cannot see the images. <img src="banana.png" alt="This is a pic of a banana">.
+        <br>If you have the image in another folder, then you have to use the correct path, for example <i>&lt;img src="<strong>/images/banana.png</strong> alt="This is a pic of a banana&gt; </i>
+        <br>If the image is on another server, you would need to add the URL and path, for example <i>&lt;img src=<strong>"https://www.w3schools.com/images/w3schools_green.jpg"</strong> alt="W3School&gt;</i>
+    </div>
 
-    <h4 class="HTML_title" id="head_HTML">Head</h4>
+    <div class="contents">
+        <h4 class="HTML_title" id="head_HTML">Head</h4>
+        The <strong>&lt;heade&gt;</strong> element contains all the data about the document, like the title, language, scripts, etc.
+        <br> The <strong>&lt;title&gt;</strong> element sets the name of the document and must be text-only. It is also required to use. The title is important for the Seach Engine Optimization (SEO).
+        <br> The <strong>&lt;meta&gt;</strong> element is used to specify keywords, description, authot, etc.
+    </div>
 
 
 </body>
