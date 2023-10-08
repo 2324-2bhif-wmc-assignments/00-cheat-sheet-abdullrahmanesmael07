@@ -49,6 +49,7 @@ h1{
     background-color: whitesmoke;
     border-radius: 10px;
     padding: 10px;
+    margin: 0;
 }
 
 .arrow{
@@ -64,46 +65,50 @@ h1{
     max-width: 4%;
 }
 
-.goback{
+.go-back{
     font-size: 20px;
     padding:10px;
 }
 
 .navi {
     overflow: hidden;
-    max-width: 12%;
-
+    z-index: 2;
 }
 
 /* Style the links inside the navigation bar */
 .navi a {
 
-    display: flex;
     color: black;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
+    z-index: 2;
+    position: relative;
 }
 
 /* Change the color of links on hover */
 .navi a:hover {
     background-color: #ddd;
     color: black;
+    z-index: 2;
+    border-radius: 16px;
 }
 
 /* Style the "active" element to highlight the current page */
 .navi a.active {
     background-color: #2196F3;
     color: white;
+    border-radius: 16px;
 }
 
 .navi-button-img{
-    max-width: 25%;
+    width: 40px;
 }
 
 .navi .navigation-points{
     opacity: 0;
+    display: none;
 }
 
 input[type="checkbox"]{
@@ -113,8 +118,17 @@ input[type="checkbox"]{
 .navi input:checked~.navigation-points{
     opacity: 1;
     background-color: #efefef;
+    height: revert;
+    z-index: 1;
+    display: flex;
+    border-radius: 16px;
 }
 
 .navi-button-img:hover{
     transform: scale(110%);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+ .list a{
+    text-decoration: none;
 }

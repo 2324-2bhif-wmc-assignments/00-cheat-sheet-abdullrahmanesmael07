@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <title>HTML</title>
     <link rel="stylesheet" type="text/css"  href="./style.css">
-    <link rel="icon"type="image/png" href="images/icon.png">
+    <link rel="icon" type="image/png" href="images/icon.png">
 
 </head>
 <body>
@@ -12,15 +12,91 @@
     <div class="navi">
         <input type="checkbox" id="navi-button">
         <label for="navi-button">
-            <img src="images/navi-button.png" class="navi-button-img">
+            <img src="images/navi-button.png" class="navi-button-img" alt="navi-button">
         </label>
         <div class="navigation-points">
-            <a class="active" href="index.html">Home</a>
+            <a href="index.html">Home</a>
             <a href="general.html">General</a>
-            <a href="html.html">HTML</a>
+            <a class="active" href="html.html">HTML</a>
             <a href="css.html">CSS</a>
         </div>
     </div>
+
+    <h1 id="title_HTML">HTML Basics</h1>
+
+    <a class="go-back" href="index.html">
+        <div class="back-key">
+            <img class="arrow" src="images/arrow.png" alt="Go Back Arrow">
+        </div>
+    </a>
+
+    <p class="table_of_content">Table of content</p>
+    <ul class="list">
+        <li><a href="#elements_HTML"> Elements </a></li>
+        <li><a href="#attributes_HTML"> Attributes </a></li>
+        <li><a href="#headings_HTML"> Headings </a></li>
+        <li><a href="#paragraphs_HTML"> Paragraphs </a></li>
+        <li><a href="#comments_HTML"> Comments </a></li>
+        <li><a href="#links_HTML"> Links </a></li>
+        <li><a href="#images_HTML"> Images </a></li>
+        <li><a href="#head_HTML"> Heads </a></li>
+    </ul>
+
+    <hr>
+
+    <h4 class="HTML_title" id="elements_HTML">HTML elements</h4>
+    <p class="contents">
+        The HTML element is everything from the start tag to the end tag, for example <strong>&lt;p&gt;</strong> Content here... <strong> &lt;/p&gt;</strong>.
+        <br> Void elements are all elements that have no end tag for example <strong>&lt;br&gt;</strong>
+    </p>
+
+    <h4 class="HTML_title" id="attributes_HTML">Attributes</h4>
+    <p class="contents">
+        Ever element can have attributes. They change the way of how the element looks, works, interacts,etc...
+        <br>Some examples are:
+        <br><strong>&lt;src&gt;</strong>(sets the source of an image),
+        <br><strong>&lt;href&gt;</strong>(sets the hyper reference for a link),
+        <br><strong>&lt;alt&gt;</strong>(puts an alt text for an image if it doesn't load),
+        <br><strong>&lt;width&gt;</strong>(sets the width of an element),
+        <br>and many more...
+    </p>
+
+    <h4 class="HTML_title" id="headings_HTML">Headings</h4>
+    <p class="contents">
+        Headings are very important. They are like a title for your documents. There are different sizes of heading.
+        <br>The biggest is <strong>&lt;h1&gt;</strong> and the smallest is <strong>&lt;h6&gt;</strong>.
+    </p>
+
+    <h4 class="HTML_title" id="paragraphs_HTML">Paragraphs</h4>
+    <p class="contents">A paragraph is defined using <strong>&lt;p&gt;</strong>. The browser automaticlly removes any spaces.
+        <br>By using <strong>&lt;br&gt;</strong> you can make a line break and by using <strong>&lt;hr&gt;</strong> you can make a horizontal rule.
+        <br>Using <strong>&lt;pre&gt;</strong> you can let text be the same as in your editor.
+    </p>
+
+    <h4 class="HTML_title" id="comments_HTML">Comments</h4>
+    <p class="contents">
+        Comments are very useful. They can be used to add text on your editor without it showing on your website, This can be used to help others or your future self understand the code.
+        <br> To use a comment, you just need to write: <strong>&lt;!-- add comments here --&gt;</strong>.
+    </p>
+
+    <h4 class="HTML_title" id="links_HTML">Links</h4>
+    <p class="contents">
+        Links in HTML are just simple hyperlinks. Use them to jump to other websites or documents.
+        <br>The <strong>&lt;a&gt;</strong> defines an anchor, which can be used for links. Just add the <i>href</i> <a href="#attributes_HTML">attribute</a> to add a hyperlink.
+        <br>Using the <i><strong>target</strong></i> attribute, you can choose how the documents get opened.
+        <br>_self: <a href="https://github.com/2324-2bhif-wmc-assignments" target="_self">This opens the link in the same window. This is also the default</a>
+        <br>_blank: <a href="https://github.com/2324-2bhif-wmc-assignments" target="_blank">This opens the link in a new window</a>
+        <br>_parent: <a href="https://github.com/2324-2bhif-wmc-assignments" target="_parent">This opens the link in a parent frame</a>
+        <br>_top: <a href="https://github.com/2324-2bhif-wmc-assignments" target="_top">This opens the link in the full body of the window</a>
+    </p>
+
+    <h4 class="HTML_title" id="images_HTML">Images</h4>
+    <p class="contents">
+        Images are very important to use.
+    </p>
+
+    <h4 class="HTML_title" id="head_HTML">Head</h4>
+
 
 </body>
 </html>
