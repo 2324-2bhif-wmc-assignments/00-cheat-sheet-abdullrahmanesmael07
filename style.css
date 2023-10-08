@@ -13,6 +13,12 @@ body{
     text-align: center;
     font-size: xxx-large;
     background: linear-gradient(to right,greenyellow, cyan);
+    width: 100%;
+    right: 0;
+    top: 0;
+    position: fixed;
+    padding: 10px;
+    margin-top: -10px;
 }
 
 /*The title of every page, general, html, css*/
@@ -63,8 +69,8 @@ body{
     margin-left: 150px;
     overflow: hidden;
     z-index: 2;
-    left: 0;
-    top: 5px;
+    right: 0px;
+    top: 67px;
     position: fixed;
 }
 
@@ -102,7 +108,7 @@ body{
     transition: all 0.3s;
     z-index: 1;
     right: 0;
-    top: 5;
+    top: 5px;
     position: fixed;
 }
 
@@ -120,8 +126,7 @@ input[type="checkbox"]{
     background: #efefef;
     height: revert;
     z-index: 1;
-    display: flex;
-    border-radius: 16px;
+    display: block;
 }
 
 .navi-button-img:hover{
