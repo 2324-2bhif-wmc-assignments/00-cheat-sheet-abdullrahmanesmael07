@@ -8,91 +8,103 @@
 </head>
 <body>
 
-    <div class="navi">
-        <input type="checkbox" id="navi-button">
-        <label for="navi-button">
-            <img src="images/navi-button.png" class="navi-button-img" alt="NaviButton">
-        </label>
-        <div class="navigation-points">
-            <a href="index.html">Home</a>
-            <a href="general.html">General</a>
-            <a href="html.html">HTML</a>
-            <a class="active" href="css.html">CSS</a>
-        </div>
+<div class="navi">
+    <input type="checkbox" id="navi-button">
+    <label for="navi-button">
+        <img src="images/navi-button.png" class="navi-button-img" alt="NaviButton">
+    </label>
+    <div class="navigation-points">
+        <a href="index.html">Home</a>
+        <a href="general.html">General</a>
+        <a href="html.html">HTML</a>
+        <a class="active" href="css.html">CSS</a>
     </div>
+</div>
 
-    <h1 class="Title">CSS Basics</h1>
+<h1 class="Title">CSS Basics</h1>
 
-    <a class="go-back" href="index.html">
-        <div class="back-key">
-            <img class="arrow" src="images/arrow.png" alt="Go Back Arrow">
-        </div>
-    </a>
-
-    <p class="table_of_content">Table of content</p>
-    <ul class="list">
-        <li><a href="#syntax_CSS"> Elements </a></li>
-        <li><a href="#color_CSS"> Attributes </a></li>
-        <li><a href="#background_CSS"> Headings </a></li>
-        <li><a href="#text_CSS"> Paragraphs </a></li>
-        <li><a href="#fonts_CSS"> Comments </a></li>
-        <li><a href="#link_CSS"> Links </a></li>
-        <li><a href="#combinator_CSS"> Images </a></li>
-        <li><a href="#pseudo_classes_CSS"> Heads </a></li>
-    </ul>
-
-    <hr>
-
-    <div class="contents">
-        <h4 class="CSS_title" id="syntax_CSS">Syntax</h4>
-        To write the syntax of CSS correctly, you will need to use a <strong>Selector</strong>, a <strong>Property</strong> and a <strong>Value</strong>.
-        <br>The Selector selects the element from the html file, for example paragraph,
-        <br>the Property is the thing that is changed, for example color, size, etc...
-        <br>and the Value is the amount of change of the property like 10px or the color blue.
-        <br>Every Declaration is seperated by a <strong>semicolon (;)</strong>.
+<a class="go-back" href="index.html">
+    <div class="back-key">
+        <img class="arrow" src="images/arrow.png" alt="Go Back Arrow">
     </div>
+</a>
 
-    <div class="contents">
-        <h4 class="CSS_title" id="color_CSS">Colors</h4>
-        You can choose the color of the element by using
-        <br>its name: <span style="color: red">red</span>, <span style="color: blue">blue</span>, <span style="color: green">green</span>
-        <br>or by its hexadecimal value: <span style="color: #31ef21">#31ef21</span>, <span style="color: #123456">#123456</span>, <span style="color: #abde12">#abde12</span>
-    </div>
+<p class="table_of_content">Table of content</p>
+<ul class="list">
+    <li><a href="#syntax_CSS"> Elements </a></li>
+    <li><a href="#color_CSS"> Attributes </a></li>
+    <li><a href="#background_CSS"> Headings </a></li>
+    <li><a href="#text_CSS"> Paragraphs </a></li>
+    <li><a href="#link_CSS"> Links </a></li>
+    <li><a href="#combinator_CSS"> Images </a></li>
+    <li><a href="#pseudo_classes_CSS"> Heads </a></li>
+</ul>
 
-    <div class="contents">
-        <h4 class="CSS_title" id="background_CSS">Backgrounds</h4>
+<hr>
 
-    </div>
+<div class="contents">
+    <h4 class="CSS_title" id="syntax_CSS">Syntax</h4>
+    To write the syntax of CSS correctly, you will need to use a <strong>Selector</strong>, a <strong>Property</strong> and a <strong>Value</strong>.
+    <br>The Selector selects the element from the html file, for example paragraph,
+    <br>the Property is the thing that is changed, for example color, size, etc...
+    <br>and the Value is the amount of change of the property like 10px or the color blue.
+    <br>Every Declaration is seperated by a <strong>semicolon (;)</strong>.
+</div>
 
-    <!--Background Color
-    Background Image
-    Background Image - Repeat Horizontally or Vertically
-    Background Image - Fixed position-->
+<div class="contents">
+    <h4 class="CSS_title" id="color_CSS">Colors</h4>
+    You can choose the color of the element by using <strong>color: </strong> and
+    <br>its name: <span style="color: red">red</span>, <span style="color: blue">blue</span>, <span style="color: green">green</span>
+    <br>or by its hexadecimal value: <span style="color: #31ef21">#31ef21</span>, <span style="color: #123456">#123456</span>, <span style="color: #abde12">#abde12</span>
+</div>
 
-    <div class="contents">
-        <h4 class="CSS_title" id="text_CSS">Texts</h4>
+<div class="contents">
+    <h4 class="CSS_title" id="background_CSS">Backgrounds</h4>
+    In CSS, you can set the background as a color by using <strong>background-color: </strong> followed by either a name or HEX Value.
+    <br> To set the background as an image you use <strong>background-image:url("image.png");</strong>.
+    Repeating an image should only be done vertically or horizontally. Use <strong>background-repeat: repeat-x;</strong> to only repeat it horizontally.
+    <br>Also use <strong>background-position: right top;</strong> to set its position.
+</div>
 
-    </div>
+<div class="contents">
+    <h4 class="CSS_title" id="text_CSS">Texts</h4>
+    You can set the color of text by using <strong>color: blue; (<a href="#color_CSS">Colors</a>)</strong>
+    <br> The <strong>text-align</strong> command can be used to set the position of text in the document.
+    <br>Use <strong>text-align: justify;</strong> to stretch the words equally.
+    <br>To set the position of the last sentence use <strong>text-align-last</strong>.
+    <br>Use <strong>vertical-align</strong> to set <span style="vertical-align: text-top">a</span><span style="vertical-align: sub">l</span><span style="vertical-align: super">i</span><span style="vertical-align: text-bottom">g</span>n text vertically.
+    <br>By using <strong>text-decoration</strong> you can change the decoration via underline, auto, dotted, 5px, 25%, line-through, etc...
+    <br>Transform text using <strong>text-transform: uppercase or lowercase or capitalize etc...</strong>.
+</div>
 
-    <div class="contents">
-        <h4 class="CSS_title" id="fonts_CSS">Fonts</h4>
+<div class="contents">
+    <h4 class="CSS_title" id="link_CSS">Links</h4>
+    Links have 4 states, which are:
+    <br><strong>a:link</strong>(a normal, unvisited link),
+    <br><strong>a:visited</strong>(a link the user has visited),
+    <br><strong>a:hover</strong>(a link when the user mouses over it) and
+    <br><strong>a:active</strong>(a link the moment it is clicked):
+    <br><span style="color: red; font-weight: bold; text-decoration: underline double red">!!!IMPORTANT NOTE!!!</span>
+    <br>a:hover MUST come after a:link and a:visited
+    <br>a:active MUST come after a:hover
 
-    </div>
+</div>
 
-    <div class="contents">
-        <h4 class="CSS_title" id="link_CSS">Links</h4>
+<div class="contents">
+    <h4 class="CSS_title" id="combinator_CSS">Combinators</h4>
+    There are 4 combinator,
+    <br><strong>Descendant Selector (space):</strong> It selects all nested elements.
+    <br><strong>Child Selector (>):</strong> It targets direct children of an element.
+    <br><strong>Adjacent Sibling Selector (+):</strong> This selector selects elements immediately preceded by another.
+    <br><strong>General Sibling Selector (~):</strong> It selects elements with the same parent and shared ancestor.
+</div>
 
-    </div>
-
-    <div class="contents">
-        <h4 class="CSS_title" id="combinator_CSS">Combinators</h4>
-
-    </div>
-
-    <div class="contents">
-        <h4 class="CSS_title" id="pseudo_classes_CSS">Pseudo Classes</h4>
-
-    </div>
+<div class="contents">
+    <h4 class="CSS_title" id="pseudo_classes_CSS">Pseudo Classes</h4>
+    Pseudo Class can tell you in what states an element is. Just like said in <a href="#link_CSS">Links</a>.
+    <br>By using <strong>:hover</strong> you can change the element when hovered over with a mouse.
+    <br>You can use <strong>:first-child</strong> to select the first element of a groud or div.
+</div>
 
 
 

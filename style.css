@@ -1,46 +1,34 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap");
+
 body{
-    font-family: "Calibri Light";
+    font-family: "Poppins", sans-serif;
     margin-left: 10px;
     padding: 0;
     font-size: 18px;
-    background-color: darkgrey;
     animation: fade 500ms ease-in;
 }
 
 /*The Title at the home page */
-.CheatSheetTitle {
+.CheatSheetTitle ,
+.Title{
     color: #002218;
     text-align: center;
     font-size: xxx-large;
-    background: linear-gradient(to right,greenyellow, cyan);
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
     width: 100%;
-    right: 0;
-    top: 0;
-    position: fixed;
-    padding: 10px;
-    margin-top: -10px;
-}
-
-/*The title of every page, general, html, css*/
-.Title{
-    text-align: center;
-    font-weight: bolder;
-    font-size: 46px;
-    background: linear-gradient(to right,greenyellow, cyan);
-    border-radius: 0;
-    padding: 10px;
-    z-index: 0;
     left: 0;
     top: 0;
     position: fixed;
-    width: 100%;
-    margin-top: -10px;
+    padding: 10px;
+    margin-top: -15px;
 }
+
+
 
 .table_of_content{
     font-size: 20px;
     font-weight: bold;
-    background: linear-gradient(to right,greenyellow, cyan);
+    background: linear-gradient(90deg, rgba(180,58,163,1) 0%, rgba(253,126,29,1) 48%, rgba(232,252,69,1) 100%);
     max-width: 9%;
     text-align: center;
     border-radius: 16px;
@@ -69,8 +57,8 @@ body{
     margin-left: 150px;
     overflow: hidden;
     z-index: 2;
-    right: 0px;
-    top: 67px;
+    right: 0;
+    top: 77px;
     position: fixed;
 }
 
@@ -85,11 +73,10 @@ body{
     font-weight: bold;
     border-radius: 16px;
     transition: all 0.3s;
-
 }
 
 .navi a:hover {
-    background:linear-gradient(to right, whitesmoke, grey);
+    background: linear-gradient(270deg, rgba(63,62,65,1) 0%, rgba(163,163,163,1) 34%, rgba(230,230,230,1) 67%, rgba(84,83,83,1) 100%);
     color: black;
     z-index: 2;
     border-radius: 16px;
@@ -126,7 +113,7 @@ input[type="checkbox"]{
     background: #efefef;
     height: revert;
     z-index: 1;
-    display: block;
+    display: flex;
 }
 
 .navi-button-img:hover{
@@ -139,7 +126,7 @@ input[type="checkbox"]{
 }
 
 article h1{
-    background: linear-gradient(to right,greenyellow, cyan);
+    background: linear-gradient(90deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
     padding: 10px;
     border-radius: 26px;
 }
@@ -155,26 +142,17 @@ article h1{
 
 .contents{
     transition: all 0.3s;
-
 }
 
-.General_title {
-    background: linear-gradient(to right,mediumpurple, cornflowerblue);
+
+
+.CSS_title,
+.HTML_title,
+.General_title{
+    background: linear-gradient(90deg, rgba(180,58,163,1) 0%, rgba(253,126,29,1) 48%, rgba(232,252,69,1) 100%);
     padding-left: 3px;
     border-radius: 4px;
-}
-
-.HTML_title{
-    background: linear-gradient(to right,mediumpurple, cornflowerblue);
-    padding-left: 3px;
-    border-radius: 4px;
-
-}
-
-.CSS_title{
-    background: linear-gradient(to right,mediumpurple, cornflowerblue);
-    padding-left: 3px;
-    border-radius: 4px;
+    color: white;
 }
 
 html{
