@@ -239,3 +239,9 @@ html{
     }
 
 }
+
+.contents table, td, tr, th{
+    border: 1px black solid;
+    border-collapse: collapse;
+    padding: 10px;
+}
