@@ -1,0 +1,37 @@
+.car{
+    display: flex;
+    
+    width: 100vw;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.carousel{
+    width: 70%;
+}
+
+.carousel-item img{
+    max-height: 700px;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+.inventions{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.card-img-top{
+    object-fit: fill;
+    
+    height: 200px;
+}
+
+.accord{
+    margin: 20px;
+    padding: 20px;
+}
